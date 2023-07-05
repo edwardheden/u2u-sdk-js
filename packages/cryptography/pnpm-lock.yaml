@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -74,8 +74,8 @@ devDependencies:
     specifier: ^4.3.7
     version: 4.3.7
   chromedriver:
-    specifier: ^109.0.0
-    version: 109.0.0
+    specifier: ^114.0.2
+    version: 114.0.2
   codecov:
     specifier: ^3.8.3
     version: 3.8.3
@@ -2796,8 +2796,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /axios@1.2.3:
-    resolution: {integrity: sha512-pdDkMYJeuXLZ6Xj/Q5J3Phpe+jbGdsSzlQaFVkMQzRUL05+6+tetX8TV3p4HrU4kzuO9bt+io/yGQxuyxA/xcw==}
+  /axios@1.4.0:
+    resolution: {integrity: sha512-S4XCWMEmzvo64T9GfvQDOXgYRDJ/wsSZc7Jvdgx5u1sd0JwsuPLqb3SYmusag+edF6ziyMensPVqLTSc1PiSEA==}
     dependencies:
       follow-redirects: 1.15.2
       form-data: 4.0.0
@@ -3227,14 +3227,14 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /chromedriver@109.0.0:
-    resolution: {integrity: sha512-jdmBq11IUwfThLFiygGTZ89qbROSQI4bICQjvOVQy2Bqr1LwC+MFkhwyZp3YG99eehQbZuTlQmmfCZBfpewTNA==}
-    engines: {node: '>=14'}
+  /chromedriver@114.0.2:
+    resolution: {integrity: sha512-v0qrXRBknbxqmtklG7RWOe3TJ/dLaHhtB0jVxE7BAdYERxUjEaNRyqBwoGgVfQDibHCB0swzvzsj158nnfPgZw==}
+    engines: {node: '>=16'}
     hasBin: true
     requiresBuild: true
     dependencies:
       '@testim/chrome-version': 1.1.3
-      axios: 1.2.3
+      axios: 1.4.0
       compare-versions: 5.0.3
       extract-zip: 2.0.1
       https-proxy-agent: 5.0.1
