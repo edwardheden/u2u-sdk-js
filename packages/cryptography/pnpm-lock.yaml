@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -114,7 +114,7 @@ devDependencies:
     version: 47.0.13(@babel/core@7.20.12)
   expo-crypto:
     specifier: ^12.0.0
-    version: 12.0.0(expo@47.0.13)
+    version: 12.4.1(expo@47.0.13)
   expo-random:
     specifier: ^13.0.0
     version: 13.0.0(expo@47.0.13)
@@ -4274,11 +4274,12 @@ packages:
       - supports-color
     dev: true
 
-  /expo-crypto@12.0.0(expo@47.0.13):
-    resolution: {integrity: sha512-2KC52eLYsXndDZOVFyr+K3Zs9wDgpqZ7F7fwAiUg+yNbE21CJrHKDFvo/Br0FAaDf/w9pUks5/qi1azB5sDzvg==}
+  /expo-crypto@12.4.1(expo@47.0.13):
+    resolution: {integrity: sha512-/en03oPNAX6gP0bKpwA1EyLBnGG9uv0+Q7uvGYyOXaQQEvj31a+8cEvNPkv75x6GuK1hcaBfO25RtX9AGOMwVA==}
     peerDependencies:
       expo: '*'
     dependencies:
+      base64-js: 1.5.1
       expo: 47.0.13(@babel/core@7.20.12)
     dev: true
 
